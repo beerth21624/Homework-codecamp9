@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chalenge 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 40%;
+            border: 1px solid rgb(112, 111, 111);
+            border-radius: 2px;
+            background-color: #d4d3d3;
+            font-size: 10px;
+        }
+
+        .content {
+            background-color: white;
+            margin: 20px;
+            padding: 40px
+        }
+
+        form {
+            margin-bottom: 7px;
+        }
+
+
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+
+        h4 {
+            color: rgb(109, 108, 108);
+
+            padding: 6px 0 6px 3px;
+            border-top: 2px solid lightgray;
+            background-color: #f0f0f0;
+        }
+
+        p {
+            display: inline-block;
+            width: 120px;
+            height: 19px;
+
+        }
+
+        .space {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="profile">
+                <form action="#" class="space">
+                    <label for="name">Name *:</label>
+                    <input type="text" id="name" name="name">
+                    <i class="fas fa-question-circle space"></i>
+                    <br>
+
+                    <label for="tabText">Tab Text *:</label>
+                    <input type="text" id="tabText" name="tabText">
+                    <i class="fas fa-question-circle space"></i>
+                    <br>
+
+                    <label for="url">URL *:</label>
+                    http://wwww.wizehive.com/webform/ <input type="text" id="url" name="URL">
+                </form>
+            </div>
+            <h4 class="space">FORM SETUP</h4>
+            <div class="formInput">
+                <form action="#">
+                    <label for="sform" class="space">Form:</label>
+                    <select name="selectForm" id="sform"></select>
+                    <button>Edit</button>
+                    <br>
+                    <label for="logo" class="space">Logo:</label>
+                    <p>no logo uploaded</p>
+                    <button>Upload Logo</button>
+                    <br>
+                    <label for="temtext" class="space">Template Text:</label>
+                    <select name="templateText" id="temtext">
+                        <option value="english">English</option>
+                    </select>
+                    <button>Edit</button>
+                    <br>
+                    <label for="rvform" class="space">Review Form:</label>
+                    <select name="reviewForm" id="rvform">
+                        <option value="default">Default</option>
+                    </select>
+                    <br>
+                    <label for="rvscore" class="space">Review Score:</label>
+                    <select name="reviewScore" id="rvscore">
+                        <option value="rating">Rating</option>
+                    </select>
+                    <button>Reload Fields</button>
+                    <br>
+                    <label for="sctype" class="space">Scoring Type:</label>
+                    <select name="scoringType" id="sctype">
+                        <option value="average">Average</option>
+                    </select>
+                    <br>
+                    <label for="maxscore">Max Score:</label>
+                    <input type="text" id="maxscore" name="maxscore" placeholder="4.00">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

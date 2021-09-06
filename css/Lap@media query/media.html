@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Lab</title>
+    <style>
+        .container {
+            width: 100vw;
+            text-align: center;
+            margin-bottom: 5vh;
+
+        }
+
+        img {
+            width: 80vw;
+            height: 70vh;
+        }
+
+        .boxContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 100vw;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 25vw;
+            border: 2px solid lightgray;
+            padding: 20px;
+        }
+
+        h4 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        @media (min-width: 600px) and (max-width: 1280px) {
+            .item {
+                width: 40vw;
+                padding: 15px;
+            }
+
+            h4 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            img {
+                height: 50vh;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .item {
+                width: 75vw;
+                padding: 10px;
+            }
+
+            h4 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+
+            img {
+                height: 35vh;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            alt="">
+    </div>
+    <div class="boxContainer">
+        <div class="item">
+            <div>
+                <h4>Codecamp9 </h4>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure labore eligendi dolores consequuntur
+                    dolor
+                    soluta facere dolore iste. Praesentium delectus quae et eos cum voluptatibus libero illum similique
+                    tempora ratione!</p>
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                <h4>Codecamp9</h4>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure labore eligendi dolores consequuntur
+                    dolor
+                    soluta facere dolore iste. Praesentium delectus quae et eos cum voluptatibus libero illum similique
+                    tempora ratione!</p>
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                <h4>Codecamp9</h4>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure labore eligendi dolores consequuntur
+                    dolor
+                    soluta facere dolore iste. Praesentium delectus quae et eos cum voluptatibus libero illum similique
+                    tempora ratione!</p>
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                <h4>Codecamp9</h4>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure labore eligendi dolores consequuntur
+                    dolor
+                    soluta facere dolore iste. Praesentium delectus quae et eos cum voluptatibus libero illum similique
+                    tempora ratione!</p>
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                <h4>Codecamp9</h4>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure labore eligendi dolores consequuntur
+                    dolor
+                    soluta facere dolore iste. Praesentium delectus quae et eos cum voluptatibus libero illum similique
+                    tempora ratione!</p>
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                <h4>Codecamp9</h4>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure labore eligendi dolores consequuntur
+                    dolor
+                    soluta facere dolore iste. Praesentium delectus quae et eos cum voluptatibus libero illum similique
+                    tempora ratione!</p>
+            </div>
+        </div>
+
+</body>
+
+</html>

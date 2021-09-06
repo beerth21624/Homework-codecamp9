@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            booking
+        </title>
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <label for="from">Flying from</label>
+                        <br>
+                        <select id="city" name="city">
+                            <option value="Paris">Nakhonnayok</option>
+                            <option value="Bangkok">Bangkok</option>
+                            <option value="London">Banna</option>
+                            <option value="Tokyo">PhaKha</option>
+                        </select>
+                    </td>
+                    <td colspan="2">
+                        <label for="to">To</label>
+                        <br>
+                        <select id="city" name="city">
+                            <option value="Paris">Nakhonnayok</option>
+                            <option value="Bangkok">Bangkok</option>
+                            <option value="London">Banna</option>
+                            <option value="Tokyo">PhaKha</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Departing</label>
+                        <br>
+                        <input type="date" id="Departing">
+                    </td>
+                    <td colspan="2">
+                        <label>Returning</label>
+                        <br>
+                        <input type="date" id="Returning">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Adult">Adult</label>
+                        <br>
+                        <input type="number" value="1" min="0" max="99">
+                    </td>
+                    <td>
+                        <label for="Child">Child</label>
+                        <br>
+                        <input type="number" value="0" min="0" max="99">  
+                    </td>
+                    <td>
+                        <label for="Infant">Infant</label>
+                        <br>
+                        <input type="number" value="0" min="0" max="99">        
+                    </td>
+                    <td>
+                        <label for="Currency">Currency</label>
+                        <br>
+                        <select id="currency" name="currency">
+                            <option value="Euro">PKR</option>
+                            <option value="Thai baht">THB</option>
+                            <option value="Pound sterling">GBP</option>
+                            <option value="Japenese yen">JPY</option>
+                        </select>        
+                    </td>
+                </tr>
+            </table>
+            <hr>
+             <button type="button">SEARCH</button>
+        </form>
+
+    </body>
+
+</html>

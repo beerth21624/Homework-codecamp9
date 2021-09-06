@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: burlywood;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 100px;
+}
+.box1 {
+  position: relative;
+  animation: box1 5s 2s infinite alternate ease;
+}
+
+@keyframes box1 {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  22% {
+    background-color: rgb(14, 233, 69);
+    top: 0;
+    left: 200px;
+  }
+  45% {
+    background-color: rgb(43, 226, 217);
+    top: 200px;
+    left: 200px;
+  }
+  60% {
+    background-color: rgb(43, 76, 226);
+    top: 200px;
+    left: 0;
+  }
+  72% {
+    background-color: rgb(175, 172, 13);
+    top: 0;
+    left: 0;
+  }
+}

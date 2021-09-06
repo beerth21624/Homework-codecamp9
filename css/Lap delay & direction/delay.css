@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: burlywood;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box1 {
+  position: relative;
+  animation-name: box1;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+@keyframes box1 {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: rgb(5, 255, 46);
+  }
+  25% {
+    background-color: rgb(29, 14, 233);
+    top: 0;
+    left: 200px;
+  }
+}
+
+.box2 {
+  position: relative;
+  animation-name: box2;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+
+@keyframes box2 {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 5, 5);
+  }
+  25% {
+    background-color: rgb(211, 233, 14);
+    top: 0;
+    left: 200px;
+  }
+}
+
+.box3 {
+  position: relative;
+  animation-name: box3;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 4s;
+}
+
+@keyframes box3 {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: rgb(5, 43, 255);
+  }
+  25% {
+    background-color: rgb(226, 14, 233);
+    top: 0;
+    left: 200px;
+  }
+}
+
+.box4 {
+  position: relative;
+  animation-name: box4;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes box4 {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  22% {
+    background-color: rgb(14, 233, 69);
+    top: 0;
+    left: 200px;
+  }
+  45% {
+    background-color: rgb(43, 226, 217);
+    top: 0;
+    left: 400px;
+  }
+  60% {
+    background-color: rgb(43, 76, 226);
+    top: 0;
+    left: 600px;
+  }
+  72% {
+    background-color: rgb(175, 172, 13);
+    top: 0;
+    left: -200px;
+  }
+}
