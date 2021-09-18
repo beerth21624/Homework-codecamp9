@@ -16,10 +16,10 @@ let salaries = {
 function topSalaries(salaries) {
   let mostSalaries = null;
   let max = 0;
-  for (name in salaries) {
-    if (salaries[name] > max) {
-      max = salaries[name];
-      mostSalaries = name;
+  for (const key in salaries) {
+    if (salaries[key] > max) {
+      max = salaries[key];
+      mostSalaries = key;
     }
   }
   return mostSalaries;
