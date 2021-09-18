@@ -1,6 +1,8 @@
-# codecamp9
+# Codecamp 9
 
-## sarawut inpol
+### ศราวุธ อินพล
+
+---
 
 > ### property และ value คืออะไรแตกต่างกันอย่างไร
 

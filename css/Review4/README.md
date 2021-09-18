@@ -1,6 +1,8 @@
-# codecamp9
+# Codecamp 9
 
-## sarawut inpol
+### ศราวุธ อินพล
+
+---
 
 > ## position คืออะไร และ มีอะไรบ้าง
 >
