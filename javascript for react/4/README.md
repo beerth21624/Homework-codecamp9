@@ -1,6 +1,6 @@
-# codecamp9
+# Codecamp 9
 
-## sarawut inpol
+### ศราวุธ อินพล
 
 ---
 
